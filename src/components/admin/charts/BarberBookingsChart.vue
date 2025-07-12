@@ -1,11 +1,11 @@
 <template>
   <div class="card mb-4 h-100">
     <div class="card-header">
-      <h5 class="mb-0">Bookings Per Barber</h5>
+      <h5 class="mb-0">Buchungen pro Barber</h5>
     </div>
     <div class="card-body" style="min-height: 300px">
       <div v-if="!labels.length" class="text-center text-muted py-5">
-        No booking data available.
+        Keine Buchungsdaten verfügbar.
       </div>
       <canvas v-else ref="canvasRef" style="width: 100%; max-height: 400px" />
     </div>
