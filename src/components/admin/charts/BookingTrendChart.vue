@@ -1,20 +1,21 @@
 <template>
   <div class="card mb-4">
     <div class="card-header d-flex justify-content-between align-items-center">
-      <h5 class="mb-0">Bookings Over Time</h5>
+      <h5 class="mb-0">Buchungen im Zeitverlauf</h5>
       <select class="form-select" style="width: 180px" v-model="range" @change="fetchData">
-        <option value="7">Last 7 Days</option>
-        <option value="30">Last 30 Days</option>
+        <option value="7">Letzte 7 Tage</option>
+        <option value="30">Letzte 30 Tage</option>
       </select>
     </div>
     <div class="card-body" style="min-height: 300px">
       <div v-if="!labels.length" class="text-center text-muted py-5">
-        No booking data available.
+        Keine Buchungsdaten verfügbar.
       </div>
       <canvas v-else ref="canvasRef" style="width: 100%; max-height: 400px" />
     </div>
   </div>
 </template>
+
 
 <script setup>
 import { ref, onMounted, nextTick } from 'vue'
