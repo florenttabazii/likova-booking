@@ -1,11 +1,11 @@
 <template>
   <div class="card mb-4 h-100">
     <div class="card-header">
-      <h5 class="mb-0">Most Popular Services</h5>
+      <h5 class="mb-0">Beliebteste Dienstleistungen</h5>
     </div>
     <div class="card-body" style="min-height: 300px">
       <div v-if="!labels.length" class="text-center text-muted py-5">
-        No service data available.
+        Keine Dienstleistungsdaten verfügbar.
       </div>
       <canvas v-else ref="canvasRef" style="width: 100%; max-height: 400px" />
     </div>
