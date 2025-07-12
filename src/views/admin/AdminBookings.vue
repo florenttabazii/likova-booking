@@ -3,12 +3,12 @@
     <AdminSidebar />
     <div class="admin-main-content" :style="{ marginLeft: sidebar.isCollapsed ? '80px' : '250px' }">
       <div class="d-flex justify-content-between align-items-center mb-3">
-        <h2 class="mb-0">Bookings</h2>
+        <h2 class="mb-0">Buchungen</h2>
         <input
           v-model="searchTerm"
           class="form-control w-50"
           type="search"
-          placeholder="Search by name, phone, email, ID, date"
+          placeholder="Suche nach Name, Telefon, E-Mail, ID, Datum"
         />
       </div>
 
@@ -16,14 +16,14 @@
         <table class="table table-hover align-middle">
           <thead class="table-light">
             <tr>
-              <th>Client</th>
-              <th>Email</th>
-              <th>Phone</th>
+              <th>Kunde</th>
+              <th>E-Mail</th>
+              <th>Telefon</th>
               <th>Barber</th>
-              <th>Date</th>
-              <th>Hour</th>
-              <th>Services</th>
-              <th>Actions</th>
+              <th>Datum</th>
+              <th>Uhrzeit</th>
+              <th>Dienstleistungen</th>
+              <th>Aktionen</th>
             </tr>
           </thead>
           <tbody>
@@ -58,22 +58,21 @@
           <div class="spinner-border"></div>
         </div>
         <p v-if="!hasMore && filteredBookings.length > 0" class="text-muted text-center my-3">
-          No more results
+          Keine weiteren Ergebnisse
         </p>
       </div>
 
       <EditBookingModal v-if="editingId" :booking-id="editingId" @close="editingId = null; fetchBookings()" />
       <DeleteBookingModal
-  v-if="confirmBooking"
-  :booking-id="confirmBooking.id"
-  @confirm="deleteBooking"
-  @cancel="confirmBooking = null"
-/>
-
-
+        v-if="confirmBooking"
+        :booking-id="confirmBooking.id"
+        @confirm="deleteBooking"
+        @cancel="confirmBooking = null"
+      />
     </div>
   </div>
 </template>
+
 
 <script setup>
 import { ref, computed, onMounted } from 'vue'
