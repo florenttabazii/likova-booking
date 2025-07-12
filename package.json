@@ -5,8 +5,8 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --outDir dist/app",
-     "postbuild": "cp public/nanotech/index.html dist/index.html && cp public/_redirects dist/_redirects",
+     "build": "vite build --outDir dist/app",
+  "postbuild": "cp -R public/nanotech dist/nanotech && cp dist/nanotech/index.html dist/index.html && cp public/_redirects dist/_redirects",
     "preview": "vite preview",
     "lint": "eslint . --fix",
     "format": "prettier --write src/"
