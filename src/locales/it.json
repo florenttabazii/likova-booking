@@ -1,0 +1,306 @@
+{
+  "common": {
+    "back": "Indietro",
+    "continue": "Continua",
+    "close": "Chiudi",
+    "cancel": "Annulla",
+    "confirm": "Conferma",
+    "ok": "OK",
+    "selectDate": "Seleziona data",
+    "selectTimeSlot": "Seleziona un orario",
+    "total": "Totale",
+    "price": "Prezzo",
+    "duration": "Durata",
+    "service": "Servizio",
+    "services": "Servizi",
+    "selected": "Selezionato",
+    "estimatedRevenue": "Entrate stimate",
+    "noData": "Nessun dato disponibile",
+    "status": "Stato",
+    "saveChanges": "Salva"
+  },
+  "filters": {
+    "all": "Tutti",
+    "confirmed": "Confermato",
+    "noShow": "No‑show",
+    "today": "Oggi",
+    "week": "Questa settimana",
+    "month": "Questo mese",
+    "thisWeek": "Questa settimana",
+    "thisMonth": "Questo mese"
+  },
+  "booking": {
+    "title": "Prenota il tuo appuntamento",
+    "status": "Stato",
+    "firstName": "Nome",
+    "lastName": "Cognome",
+    "email": "Email",
+    "phone": "Numero di telefono",
+    "phonePlaceholder": "79 123 45 67",
+    "phoneHint": "Numero svizzero",
+    "datePlaceholder": "Seleziona una data",
+    "timeSlots": "Fasce orarie disponibili",
+    "swissNote": "Numero svizzero",
+    "selectDate": "Seleziona data",
+    "availableSlots": "Fasce orarie disponibili",
+    "noSlots": "Nessuna fascia disponibile per questa data. Per favore scegli un'altra data.",
+    "selectSlot": "Seleziona una fascia oraria per continuare.",
+    "selectSlotPrompt": "Per favore seleziona una fascia prima di continuare.",
+    "selectedTime": "Orario selezionato",
+    "policyNote": "Confermando accetti la nostra privacy policy.",
+    "acceptPolicy": "Ho letto e accetto la privacy policy",
+    "steps": {
+      "0": { "title": "", "subtitle": "" },
+      "1": { "title": "Scegli il tuo barbiere", "subtitle": "Scegli tra i nostri professionisti esperti" },
+      "2": { "title": "Seleziona i servizi", "subtitle": "Scegli i servizi di cui hai bisogno" },
+      "3": { "title": "Prenota il tuo appuntamento", "subtitle": "Inserisci i tuoi dati e scegli data e ora" },
+      "4": { "title": "Conferma la tua prenotazione", "subtitle": "Rivedi e conferma il tuo appuntamento" }
+    },
+    "validation": {
+      "firstName": "Inserisci il nome.",
+      "lastName": "Inserisci il cognome.",
+      "email": "Inserisci l’email.",
+      "emailInvalid": "Email non valida.",
+      "phone": "Inserisci numero svizzero valido.",
+      "date": "Seleziona la data dell’appuntamento.",
+      "noSlots": "Nessuna fascia per questa data.",
+      "timeSlot": "Seleziona una fascia."
+    },
+    "time": "Ora",
+    "client": "Cliente",
+    "barber": "Barbiere",
+    "services": "Servizi"
+  },
+  "confirmBooking": {
+    "title": "Conferma la tua prenotazione",
+    "personalInfo": "Informazioni personali",
+    "name": "Nome",
+    "email": "Email",
+    "phone": "Telefono",
+    "appointmentDetails": "Dettagli dell’appuntamento",
+    "date": "Data",
+    "time": "Ora",
+    "barber": "Barbiere",
+    "selectedServices": "Servizi selezionati",
+    "service": "Servizio",
+    "duration": "Durata",
+    "price": "Prezzo",
+    "total": "Totale",
+    "privacyPrefix": "Confermando accetti la nostra",
+    "privacyLink": "privacy policy",
+    "privacyCheck": "Ho letto e accetto la privacy policy",
+    "back": "Indietro",
+    "confirm": "Conferma prenotazione"
+  },
+  "confirmation": {
+    "title": "Prenotazione confermata!",
+    "successMessage": "Il tuo appuntamento è stato prenotato con successo!",
+    "bookingId": "ID prenotazione",
+    "arrivalNotice": "Arriva 15 minuti prima dell’appuntamento.",
+    "newBooking": "Nuova prenotazione"
+  },
+  "barber": {
+    "continue": "Continua con la prenotazione",
+    "name": "Nome",
+    "surname": "Cognome",
+    "phone": "Telefono",
+    "experience": "Esperienza",
+    "rating": "Valutazione",
+    "clients": "Clienti",
+    "photo": "Foto",
+    "status": "Stato",
+    "active": "Attivo",
+    "inactive": "Inattivo",
+    "edit": "Modifica",
+    "delete": "Elimina",
+    "addNew": "Aggiungi nuovo barbiere",
+    "addBarber": "Aggiungi barbiere",
+    "editBarber": "Modifica barbiere",
+    "description": "Descrizione",
+    "slotInterval": "Intervallo (minuti)",
+    "workingHours": "Ore lavorative giornaliere",
+    "cancel": "Annulla",
+    "saveChanges": "Salva modifiche",
+    "years": "anni",
+    "editTitle": "Modifica barbiere",
+    "addTitle": "Aggiungi barbiere",
+    "selectInterval": "Seleziona intervallo",
+    "minutes": "minuti",
+    "words": "parole",
+    "fields": {
+      "name": "Nome",
+      "surname": "Cognome",
+      "phone": "Telefono",
+      "experience": "Esperienza",
+      "rating": "Valutazione",
+      "clients": "Clienti",
+      "photo": "Foto",
+      "total_clients": "Clienti",
+      "avatar_url": "URL foto",
+      "phone_number": "Numero di telefono",
+      "description": "Descrizione",
+      "slotInterval": "Intervallo (minuti)",
+      "workingHours": "Ore lavorative giornaliere"
+    },
+    "placeholders": {
+      "name": "Inserisci nome",
+      "surname": "Inserisci cognome",
+      "phone": "Inserisci telefono",
+      "experience": "Inserisci esperienza",
+      "rating": "Inserisci valutazione",
+      "clients": "Inserisci numero clienti",
+      "photo": "Incolla URL immagine",
+      "description": "Scrivi una breve bio…",
+      "total_clients": "Inserisci numero clienti",
+      "avatar_url": "Incolla URL immagine",
+      "phone_number": "Inserisci numero di telefono"
+    }
+  },
+  "admin": {
+    "dashboardWelcome": "Benvenuto nella dashboard amministratore",
+    "welcome": "Benvenuto nella dashboard amministratore",
+    "todayBookings": "Prenotazioni di oggi",
+    "totalBookingsToday": "Totale prenotazioni oggi",
+    "attendedToday": "Presenti oggi",
+    "noShowsToday": "Non presenti oggi",
+    "deleteBarber": "Elimina barbiere",
+    "deleteConfirm": "Sei sicuro di voler eliminare",
+    "databaseUsage": "Utilizzo database",
+    "barberManagement": "Gestione barbieri",
+    "noBookingsToday": "Nessuna prenotazione trovata oggi.",
+    "estimatedRevenue": "Entrate stimate"
+  },
+  "modals": {
+    "validationTitle": "Attenzione",
+    "validationOk": "OK",
+    "deleteTitle": "Elimina barbiere",
+    "deleteMessage": "Sei sicuro di voler eliminare",
+    "confirmationModal": {
+      "title": "Prenotazione confermata!",
+      "subtitle": "Il tuo appuntamento è stato prenotato con successo!",
+      "bookingId": "ID prenotazione",
+      "arrivalNotice": "Arriva 15 minuti prima dell’appuntamento.",
+      "close": "Chiudi",
+      "newBooking": "Nuova prenotazione"
+    }
+  },
+  "databaseUsage": {
+    "title": "Utilizzo database",
+    "usage": "Utilizzo stimato: {used} MB di 500 MB ({percent} %)"
+  },
+  "buttons": {
+    "back": "Indietro",
+    "completeForm": "Completa il modulo",
+    "continue": "Continua"
+  },
+  "status": {
+    "confirmed": "Confermato",
+    "noShow": "Non presente"
+  },
+  "actions": {
+    "actions": "Azioni",
+    "edit": "Modifica",
+    "delete": "Elimina"
+  },
+  "deleteModal": {
+    "title": "Elimina barbiere",
+    "message": "Sei sicuro di voler eliminare questo barbiere?",
+    "confirm": "Elimina"
+  },
+  "weekdays": {
+    "su": "Do",
+    "mo": "Lu",
+    "tu": "Ma",
+    "we": "Me",
+    "th": "Gi",
+    "fr": "Ve",
+    "sa": "Sa"
+  },
+  "barberCard": {
+    "rating": "Valutazione",
+    "experience": "Esperienza",
+    "clients": "Clienti",
+    "select": "Seleziona",
+    "selected": "Selezionato"
+  },
+  "modal": {
+    "attention": "Attenzione",
+    "ok": "OK"
+  },
+  "progress": {
+    "barber": "Barbiere",
+    "services": "Servizi",
+    "booking": "Prenotazione",
+    "confirm": "Conferma"
+  },
+  "sidebar": {
+    "admin": "Admin",
+    "dashboard": "Dashboard",
+    "barbers": "Barbieri",
+    "services": "Servizi",
+    "bookings": "Prenotazioni",
+    "systemStatus": "Stato sistema",
+    "logout": "Logout"
+  },
+  "services": {
+    "title": "Selezione servizi",
+    "total": "Totale",
+    "selected": "servizio(i) selezionato(i)",
+    "managementTitle": "Gestione servizi",
+    "addSection": "Aggiungi nuova sezione",
+    "addAnotherSection": "Aggiungi un'altra sezione",
+    "searchPlaceholder": "Cerca solo servizi…",
+    "deleteServiceTitle": "Elimina servizio",
+    "deleteServiceMessage": "Sei sicuro di voler eliminare '{name}'?",
+    "deleteSectionTitle": "Elimina sezione",
+    "deleteSectionMessage": "Questa operazione eliminerà permanentemente la sezione e tutti i suoi servizi. Continuare?",
+    "unitMinutes": "min"
+  },
+  "serviceModal": {
+    "addService": "Aggiungi servizio",
+    "editService": "Modifica servizio",
+    "active": "Attivo",
+    "inactive": "Inattivo",
+    "unitMinutes": "minuti",
+    "buttons": {
+      "cancel": "Annulla",
+      "save": "Salva"
+    },
+    "fields": {
+      "name": "Nome del servizio",
+      "description": "Descrizione",
+      "price": "Prezzo",
+      "duration": "Durata",
+      "status": "Stato"
+    }
+  },
+  "serviceSection": {
+    "editSection": "Modifica sezione",
+    "addService": "Aggiungi servizio",
+    "deleteTitle": "Elimina servizio",
+    "deleteMessage": "Sei sicuro di voler eliminare '{name}'?"
+  },
+  "systemStatus": {
+    "title": "Stato sistema",
+    "manualCleanup": {
+      "label": "Cancella prenotazioni più vecchie di:",
+      "options": {
+        "1": "1 mese",
+        "2": "2 mesi",
+        "3": "3 mesi",
+        "6": "6 mesi"
+      },
+      "button": "Cancella ora"
+    },
+    "autoCleanup": {
+      "label": "Pulizia automatica",
+      "options": {
+        "1": "Ogni 1 mese",
+        "2": "Ogni 2 mesi",
+        "3": "Ogni 3 mesi"
+      },
+      "enable": "Abilita pulizia auto",
+      "enabled": "Attivo"
+    }
+  }
+}

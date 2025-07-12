@@ -1,0 +1,330 @@
+{
+  "common": {
+    "back": "Zurück",
+    "continue": "Fortfahren",
+    "close": "Schließen",
+    "cancel": "Abbrechen",
+    "confirm": "Bestätigen",
+    "ok": "OK",
+    "selectDate": "Datum auswählen",
+    "selectTimeSlot": "Zeitfenster auswählen",
+    "total": "Gesamt",
+    "price": "Preis",
+    "duration": "Dauer",
+    "service": "Dienstleistung",
+    "services": "Dienstleistungen",
+    "selected": "Ausgewählt",
+    "estimatedRevenue": "Geschätzte Einnahmen",
+    "noData": "Keine Daten verfügbar",
+    "status": "Status",
+    "saveChanges": "Änderungen speichern"
+  },
+  "filters": {
+    "all": "Alle",
+    "confirmed": "Bestätigt",
+    "noShow": "No‑Show",
+    "today": "Heute",
+    "week": "Diese Woche",
+    "month": "Diesen Monat",
+    "thisWeek": "Diese Woche",
+    "thisMonth": "Diesen Monat"
+  },
+  "booking": {
+    "weekdays": ["Mo", "Di", "Mi", "Do", "Fr", "Sa", "So"],
+      "months": [
+        "Januar", "Februar", "März", "April",
+        "Mai", "Juni", "Juli", "August",
+        "September", "Oktober", "November", "Dezember"
+      ],
+    "title": "Vereinbare deinen Termin",
+    "status": "Status",
+    "firstName": "Vorname",
+    "lastName": "Nachname",
+    "email": "E‑Mail",
+    "phone": "Telefonnummer",
+    "phonePlaceholder": "79 123 45 67",
+    "phoneHint": "Schweizer Handynummer",
+    "datePlaceholder": "Datum auswählen",
+    "timeSlots": "Verfügbare Zeitfenster",
+    "swissNote": "Schweizer Handynummer",
+    "selectDate": "Datum auswählen",
+    "availableSlots": "Verfügbare Zeitfenster",
+    "noSlots": "Für dieses Datum sind keine Slots verfügbar. Bitte wählen Sie ein anderes Datum.",
+    "selectSlot": "Bitte wählen Sie ein Zeitfenster, um fortzufahren.",
+    "selectSlotPrompt": "Bitte wählen Sie einen Slot, bevor Sie fortfahren.",
+    "selectedTime": "Ausgewählte Zeit",
+    "policyNote": "Mit der Buchung stimmen Sie unserer Datenschutzerklärung zu.",
+    "acceptPolicy": "Ich habe die Datenschutzerklärung gelesen und akzeptiert",
+    "steps": {
+      "0": {
+        "title": "",
+        "subtitle": ""
+      },
+      "1": {
+        "title": "Ihren Barber",
+        "subtitle": "Erfahrener Fachmann"
+      },
+      "2": {
+        "title": "Dienstleistungen auswählen",
+        "subtitle": "Wählen Sie die gewünschten Leistungen"
+      },
+      "3": {
+        "title": "Termin buchen",
+        "subtitle": "Geben Sie Ihre Daten ein und wählen Sie Datum & Uhrzeit"
+      },
+      "4": {
+        "title": "Buchung bestätigen",
+        "subtitle": "Überprüfen und bestätigen Sie Ihren Termin"
+      }
+    },
+    "validation": {
+      "firstName": "Bitte Vornamen eingeben.",
+      "lastName": "Bitte Nachnamen eingeben.",
+      "email": "Bitte E‑Mail eingeben.",
+      "emailInvalid": "Ungültige E‑Mail.",
+      "phone": "Bitte gültige Schweizer Telefonnummer eingeben.",
+      "date": "Bitte Termin‑Datum auswählen.",
+      "noSlots": "Keine Slots für dieses Datum.",
+      "timeSlot": "Bitte ein Zeitfenster auswählen."
+    },
+    "time": "Zeit",
+    "client": "Kunde",
+    "barber": "Barber",
+    "services": "Dienstleistungen"
+  },
+  "confirmBooking": {
+    "title": "Buchung bestätigen",
+    "personalInfo": "Persönliche Angaben",
+    "name": "Name",
+    "email": "E‑Mail",
+    "phone": "Telefon",
+    "appointmentDetails": "Termindetails",
+    "date": "Datum",
+    "time": "Zeit",
+    "barber": "Barber",
+    "selectedServices": "Ausgewählte Dienstleistungen",
+    "service": "Dienstleistung",
+    "duration": "Dauer",
+    "price": "Preis",
+    "total": "Gesamt",
+    "privacyPrefix": "Mit der Bestätigung stimmen Sie unserer",
+    "privacyLink": "Datenschutzerklärung",
+    "privacyCheck": "Ich habe die Datenschutzerklärung gelesen und akzeptiert",
+    "back": "Zurück",
+    "confirm": "Buchung bestätigen"
+  },
+  "confirmation": {
+    "title": "Buchung bestätigt!",
+    "successMessage": "Dein Termin wurde erfolgreich gebucht!",
+    "bookingId": "Buchungs‑ID",
+    "arrivalNotice": "Bitte erscheine 15 Minuten vor deinem Termin.",
+    "newBooking": "Neue Buchung"
+  },
+  "barber": {
+    "continue": "Weiter zur Buchung",
+    "name": "Name",
+    "surname": "Nachname",
+    "phone": "Telefon",
+    "experience": "Erfahrung",
+    "rating": "Bewertung",
+    "clients": "Kunden",
+    "photo": "Foto",
+    "status": "Status",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "edit": "Bearbeiten",
+    "delete": "Löschen",
+    "addNew": "Neuen Barber hinzufügen",
+    "addBarber": "Barber hinzufügen",
+    "editBarber": "Barber bearbeiten",
+    "description": "Beschreibung",
+    "slotInterval": "Intervall (Minuten)",
+    "workingHours": "Arbeitsstunden pro Tag",
+    "cancel": "Abbrechen",
+    "saveChanges": "Änderungen speichern",
+    "years": "Jahre",
+    "editTitle": "Barber bearbeiten",
+    "addTitle": "Barber hinzufügen",
+    "selectInterval": "Intervall auswählen",
+    "minutes": "Minuten",
+    "words": "Wörter",
+    "pause1": "Erste Pause",
+    "pause2": "Zweite Pause",
+    "workingHoursTitle": "Arbeitszeiten",
+    "fields": {
+      "name": "Name",
+      "surname": "Nachname",
+      "phone": "Telefon",
+      "experience": "Erfahrung",
+      "rating": "Bewertung",
+      "clients": "Kunden",
+      "photo": "Foto",
+      "total_clients": "Kunden",
+      "avatar_url": "Foto‑URL",
+      "phone_number": "Telefonnummer",
+      "description": "Beschreibung",
+      "slotInterval": "Intervall (Minuten)",
+      "workingHours": "Arbeitsstunden pro Tag"
+    },
+    "placeholders": {
+      "name": "Name eingeben",
+      "surname": "Nachnamen eingeben",
+      "phone": "Telefon eingeben",
+      "experience": "Erfahrung eingeben",
+      "rating": "Bewertung eingeben",
+      "clients": "Anzahl Kunden eingeben",
+      "photo": "Bild‑URL einfügen",
+      "description": "Kurzbeschreibung",
+      "total_clients": "Anzahl Kunden eingeben",
+      "avatar_url": "Bild‑URL einfügen",
+      "phone_number": "Telefonnummer eingeben"
+    }
+  },
+  "admin": {
+    "dashboardWelcome": "Willkommen im Admin‑Dashboard",
+    "welcome": "Willkommen im Admin‑Dashboard",
+    "todayBookings": "Heutige Buchungen",
+    "totalBookingsToday": "Gesamte Buchungen heute",
+    "attendedToday": "Anwesende heute",
+    "noShowsToday": "Nicht erschienen heute",
+    "deleteBarber": "Barber löschen",
+    "deleteConfirm": "Sind Sie sicher, dass Sie löschen möchten",
+    "databaseUsage": "Datenbanknutzung",
+    "barberManagement": "Barberverwaltung",
+    "noBookingsToday": "Keine Buchungen für heute gefunden.",
+    "estimatedRevenue": "Geschätzter Umsatz"
+  },
+  "modals": {
+    "validationTitle": "Achtung",
+    "validationOk": "OK",
+    "deleteTitle": "Barber löschen",
+    "deleteMessage": "Sind Sie sicher, dass Sie löschen möchten",
+    "confirmationModal": {
+      "title": "Buchung bestätigt!",
+      "subtitle": "Dein Termin wurde erfolgreich gebucht!",
+      "bookingId": "Buchungs‑ID",
+      "arrivalNotice": "Bitte erscheine 15 Minuten vor deinem Termin.",
+      "close": "Schließen",
+      "newBooking": "Neue Buchung"
+    }
+  },
+  "databaseUsage": {
+    "title": "Datenbanknutzung",
+    "usage": "Geschätzte Nutzung: {used} MB von 500 MB ({percent} %)"
+  },
+  "buttons": {
+    "back": "Zurück",
+    "completeForm": "Formular abschließen",
+    "continue": "Fortfahren"
+  },
+  "status": {
+    "confirmed": "Bestätigt",
+    "noShow": "Nicht erschienen"
+  },
+  "actions": {
+    "actions": "Aktionen",
+    "edit": "Bearbeiten",
+    "delete": "Löschen"
+  },
+  "deleteModal": {
+    "title": "Barber löschen",
+    "message": "Bist du sicher, dass du diesen Barber löschen möchtest?",
+    "confirm": "Löschen"
+  },
+  "weekdays": {
+    "su": "So",
+    "mo": "Mo",
+    "tu": "Di",
+    "we": "Mi",
+    "th": "Do",
+    "fr": "Fr",
+    "sa": "Sa"
+  },
+  "barberCard": {
+    "rating": "Bewertung",
+    "experience": "Erfahrung",
+    "clients": "Kunden",
+    "select": "Auswählen",
+    "selected": "Ausgewählt"
+  },
+  "modal": {
+    "attention": "Achtung",
+    "ok": "OK"
+  },
+  "progress": {
+    "barber": "Barber",
+    "services": "Dienstleistungen",
+    "booking": "Buchung",
+    "confirm": "Bestätigen"
+  },
+  "sidebar": {
+    "admin": "Admin",
+    "dashboard": "Dashboard",
+    "barbers": "Barbere",
+    "services": "Dienstleistungen",
+    "bookings": "Buchungen",
+    "systemStatus": "Systemstatus",
+    "logout": "Abmelden"
+  },
+  "services": {
+    "title": "Dienstleistungen auswählen",
+    "total": "Gesamt",
+    "selected": "Dienstleistung(en) ausgewählt",
+    "managementTitle": "Dienstleistungsverwaltung",
+    "addSection": "Neue Sektion hinzufügen",
+    "addAnotherSection": "Weitere Sektion hinzufügen",
+    "searchPlaceholder": "Nur nach Dienstleistungen suchen…",
+    "deleteServiceTitle": "Dienstleistung löschen",
+    "deleteServiceMessage": "Sind Sie sicher, dass Sie '{name}' löschen möchten?",
+    "deleteSectionTitle": "Sektion löschen",
+    "deleteSectionMessage": "Dies wird die Sektion und alle ihre Dienstleistungen dauerhaft löschen. Fortfahren?",
+    "unitMinutes": "min"
+  },
+  "serviceModal": {
+    "addService": "Dienstleistung hinzufügen",
+    "editService": "Dienstleistung bearbeiten",
+    "active": "Aktiv",
+    "inactive": "Inaktiv",
+    "unitMinutes": "Minuten",
+    "buttons": {
+      "cancel": "Abbrechen",
+      "save": "Speichern"
+    },
+    "fields": {
+      "name": "Dienstleistungsname",
+      "description": "Beschreibung",
+      "price": "Preis",
+      "duration": "Dauer",
+      "status": "Status"
+    }
+  },
+  "serviceSection": {
+    "editSection": "Sektion bearbeiten",
+    "addService": "Dienstleistung hinzufügen",
+    "deleteTitle": "Dienstleistung löschen",
+    "deleteMessage": "Sind Sie sicher, dass Sie '{name}' löschen möchten?"
+  },
+  "systemStatus": {
+    "title": "Systemstatus",
+    "manualCleanup": {
+      "label": "Alte Buchungen löschen nach:",
+      "options": {
+        "1": "1 Monat",
+        "2": "2 Monate",
+        "3": "3 Monate",
+        "6": "6 Monate"
+      },
+      "button": "Jetzt löschen"
+    },
+    "autoCleanup": {
+      "label": "Automatisches Löschen",
+      "options": {
+        "1": "Alle 1 Monat",
+        "2": "Alle 2 Monate",
+        "3": "Alle 3 Monate"
+      },
+      "enable": "Autom. löschen aktivieren",
+      "enabled": "Aktiviert"
+    }
+  }
+}

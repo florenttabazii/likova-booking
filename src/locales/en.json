@@ -1,0 +1,324 @@
+{
+  "common": {
+    "back": "Back",
+    "continue": "Continue",
+    "close": "Close",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "ok": "OK",
+    "selectDate": "Select Date",
+    "selectTimeSlot": "Select a time slot",
+    "total": "Total",
+    "price": "Price",
+    "duration": "Duration",
+    "service": "Service",
+    "services": "Services",
+    "selected": "Selected",
+    "estimatedRevenue": "Estimated Revenue",
+    "noData": "No data available",
+    "status": "Status",
+    "saveChanges": "Save"
+  },
+  "filters": {
+    "all": "All",
+    "confirmed": "Confirmed",
+    "noShow": "No-Show",
+    "today": "Today",
+    "week": "This Week",
+    "month": "This Month",
+    "thisWeek": "This Week",
+    "thisMonth": "This Month"
+  },
+  "booking": {
+    "title": "Book Your Appointment",
+    "status": "Status",
+    "firstName": "First Name",
+    "lastName": "Last Name",
+    "email": "Email",
+    "phone": "Phone Number",
+    "phonePlaceholder": "79 123 45 67",
+    "phoneHint": "Swiss mobile number",
+    "datePlaceholder": "Select a date",
+    "timeSlots": "Available Time Slots",
+    "swissNote": "Swiss mobile number",
+    "selectDate": "Select Date",
+    "availableSlots": "Available Time Slots",
+    "noSlots": "No available slots for this date. Please choose another date.",
+    "selectSlot": "Please select a time slot to continue.",
+    "selectSlotPrompt": "Please select a slot before continuing.",
+    "selectedTime": "Selected time",
+    "policyNote": "By confirming this booking you also agree to our privacy policy.",
+    "acceptPolicy": "I have read and accept the privacy policy",
+    "steps": {
+      "0": {
+        "title": "",
+        "subtitle": ""
+      },
+      "1": {
+        "title": "Your Barber",
+        "subtitle": "Experienced professional"
+      },
+      "2": {
+        "title": "Select Services",
+        "subtitle": "Choose the services you need"
+      },
+      "3": {
+        "title": "Book Your Appointment",
+        "subtitle": "Fill in your details and choose a date & time"
+      },
+      "4": {
+        "title": "Confirm Your Booking",
+        "subtitle": "Review and confirm your appointment"
+      }
+    },
+    "validation": {
+      "firstName": "Enter your first name.",
+      "lastName": "Enter your last name.",
+      "email": "Enter your email.",
+      "emailInvalid": "Invalid email.",
+      "phone": "Enter valid Swiss phone number.",
+      "date": "Select appointment date.",
+      "noSlots": "No slots for this date.",
+      "timeSlot": "Select a time slot."
+    },
+    "time": "Time",
+    "client": "Client",
+    "barber": "Barber",
+    "services": "Services"
+  },
+  "confirmBooking": {
+    "title": "Confirm Your Booking",
+    "personalInfo": "Personal Information",
+    "name": "Name",
+    "email": "Email",
+    "phone": "Phone",
+    "appointmentDetails": "Appointment Details",
+    "date": "Date",
+    "time": "Time",
+    "barber": "Barber",
+    "selectedServices": "Selected Services",
+    "service": "Service",
+    "duration": "Duration",
+    "price": "Price",
+    "total": "Total",
+    "privacyPrefix": "By confirming this booking you also agree to our",
+    "privacyLink": "privacy policy",
+    "privacyCheck": "I have read and accept the privacy policy",
+    "back": "Back",
+    "confirm": "Confirm Booking"
+  },
+  "confirmation": {
+    "title": "Booking Confirmed!",
+    "successMessage": "Your appointment has been booked successfully!",
+    "bookingId": "Booking ID",
+    "arrivalNotice": "Please arrive 15 minutes before your appointment time.",
+    "newBooking": "New Booking"
+  },
+  "barber": {
+    "continue": "Continue to Booking",
+    "name": "Name",
+    "surname": "Surname",
+    "phone": "Phone",
+    "experience": "Experience",
+    "rating": "Rating",
+    "clients": "Clients",
+    "photo": "Photo",
+    "status": "Status",
+    "active": "Active",
+    "inactive": "Inactive",
+    "edit": "Edit",
+    "delete": "Delete",
+    "addNew": "Add New Barber",
+    "addBarber": "Add Barber",
+    "editBarber": "Edit Barber",
+    "description": "Description",
+    "slotInterval": "Slot Interval (minutes)",
+    "workingHours": "Working Hours Per Day",
+    "cancel": "Cancel",
+    "saveChanges": "Save Changes",
+    "years": "yrs",
+    "editTitle": "Edit Barber",
+    "addTitle": "Add Barber",
+    "selectInterval": "Select interval",
+    "minutes": "minutes",
+    "words": "words",
+    "fields": {
+      "name": "Name",
+      "surname": "Surname",
+      "phone": "Phone",
+      "experience": "Experience",
+      "rating": "Rating",
+      "clients": "Clients",
+      "photo": "Photo",
+      "total_clients": "Clients",
+      "avatar_url": "Photo URL",
+      "phone_number": "Phone Number",
+      "description": "Description",
+      "slotInterval": "Slot Interval (minutes)",
+      "workingHours": "Working Hours Per Day",
+        "pause1": "Mid-Morning Break",
+        "pause2": "Lunch Break"
+    },
+    "placeholders": {
+      "name": "Enter name",
+      "surname": "Enter surname",
+      "phone": "Enter phone",
+      "experience": "Enter years of experience",
+      "rating": "Enter rating",
+      "clients": "Enter client count",
+      "photo": "Paste image URL",
+      "description": "Write a short bio...",
+      "total_clients": "Enter client count",
+      "avatar_url": "Paste image URL",
+      "phone_number": "Enter phone number"
+    }
+  },
+  "admin": {
+    "dashboardWelcome": "Welcome to Admin Dashboard",
+    "welcome": "Welcome to Admin Dashboard",
+    "todayBookings": "Today’s Bookings",
+    "totalBookingsToday": "Total Bookings Today",
+    "attendedToday": "Attended Today",
+    "noShowsToday": "Not Showed Today",
+    "deleteBarber": "Delete Barber",
+    "deleteConfirm": "Are you sure you want to delete",
+    "databaseUsage": "Database Usage",
+    "barberManagement": "Barber Management",
+    "noBookingsToday": "No bookings found for today.",
+    "estimatedRevenue": "Estimated Revenue"
+  },
+  "modals": {
+    "validationTitle": "Attention",
+    "validationOk": "OK",
+    "deleteTitle": "Delete Barber",
+    "deleteMessage": "Are you sure you want to delete",
+    "confirmationModal": {
+      "title": "Booking Confirmed!",
+      "subtitle": "Your appointment has been booked successfully!",
+      "bookingId": "Booking ID",
+      "arrivalNotice": "Please arrive 15 minutes before your appointment time.",
+      "close": "Close",
+      "newBooking": "New Booking"
+    }
+  },
+  "databaseUsage": {
+    "title": "Database Usage",
+    "usage": "Estimated usage: {used} MB of 500 MB ({percent}%)"
+  },
+  "buttons": {
+    "back": "Back",
+    "completeForm": "Complete Form",
+    "continue": "Continue"
+  },
+  "status": {
+    "confirmed": "Confirmed",
+    "noShow": "Not Showed"
+  },
+  "actions": {
+    "actions": "Actions",
+    "edit": "Edit",
+    "delete": "Delete"
+  },
+  "deleteModal": {
+    "title": "Delete Barber",
+    "message": "Are you sure you want to delete this barber?",
+    "confirm": "Delete"
+  },
+  "weekdays": {
+    "su": "Sun",
+    "mo": "Mon",
+    "tu": "Tue",
+    "we": "Wed",
+    "th": "Thu",
+    "fr": "Fri",
+    "sa": "Sat"
+  },
+  "barberCard": {
+    "rating": "Rating",
+    "experience": "Experience",
+    "clients": "Clients",
+    "select": "Select",
+    "selected": "Selected"
+  },
+  "modal": {
+    "attention": "Attention",
+    "ok": "OK"
+  },
+  "progress": {
+    "barber": "Barber",
+    "services": "Services",
+    "booking": "Booking",
+    "confirm": "Confirm"
+  },
+  "sidebar": {
+    "admin": "Admin",
+    "dashboard": "Dashboard",
+    "barbers": "Barbers",
+    "services": "Services",
+    "bookings": "Bookings",
+    "systemStatus": "System Status",
+    "logout": "Logout"
+  },
+  "services": {
+    "title": "Select Services",
+    "total": "Total",
+    "selected": "service(s) selected",
+    "managementTitle": "Service Management",
+    "addSection": "Add New Section",
+    "addAnotherSection": "Add Another Section",
+    "searchPlaceholder": "Search only services...",
+    "deleteServiceTitle": "Delete Service",
+    "deleteServiceMessage": "Are you sure you want to delete '{name}'?",
+    "deleteSectionTitle": "Delete Section",
+    "deleteSectionMessage": "This will permanently delete the section and all its services. Continue?",
+    "unitMinutes": "min"
+  },
+
+  "serviceModal": {
+    "addService": "Add Service",
+    "editService": "Edit Service",
+    "active": "Active",
+    "inactive": "Inactive",
+    "unitMinutes": "minutes",
+    "buttons": {
+      "cancel": "Cancel",
+      "save": "Save"
+    },
+    "fields": {
+      "name": "Service Name",
+      "description": "Description",
+      "price": "Price",
+      "duration": "Duration",
+      "status": "Status"
+    }
+  },
+  "serviceSection": {
+    "editSection": "Edit Section",
+    "addService": "Add Service",
+    "deleteTitle": "Delete Service",
+    "deleteMessage": "Are you sure you want to delete '{name}'?"
+  },
+  "systemStatus": {
+    "title": "System Status",
+    "manualCleanup": {
+      "label": "Cleanup Bookings Older Than:",
+      "options": {
+        "1": "1 month",
+        "2": "2 months",
+        "3": "3 months",
+        "6": "6 months"
+      },
+      "button": "Clean Now"
+    },
+    "autoCleanup": {
+      "label": "Auto-Cleanup",
+      "options": {
+        "1": "Every 1 month",
+        "2": "Every 2 months",
+        "3": "Every 3 months"
+      },
+      "enable": "Enable Auto-Cleanup",
+      "enabled": "Enabled"
+    }
+  }
+}
