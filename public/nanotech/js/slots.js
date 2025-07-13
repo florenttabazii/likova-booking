@@ -114,7 +114,7 @@ function renderSlotButtons(slots, barberId) {
     // ✅ Fill content
     const a = clone.querySelector('a')
     if (a) {
-      a.href = `/booking/barber-selection?barber=${barberId}&time=${encodeURIComponent(slot)}`
+      a.href = `https://lovely-alpaca-461f99.netlify.app/app${barberId}&time=${encodeURIComponent(slot)}`
       a.setAttribute('target', '_self')
     }
 
